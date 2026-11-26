@@ -111,3 +111,18 @@ header button{
 .titulo_planos{
     height: 120px;
 }
+.planos{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.planos img{
+    height: 50px;
+}
+.basico{
+    background-color: white;
+}
+.medio{
+    background-color: white;
+}
+.ultra{
+    background-color: white;
+}
