@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(../img/parede2.jpg);
+    
+}
+header{
+    background-color: #201DB9;
+    display:  flex;
+}
+header .logo{
+    height: 60px;
+    margin: 10px;
+}
+header nav{
+    margin: 20px;
+    margin-top: 30px;
+    color: white;
+}
+header button{
+    height: 30px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 50px;
+    border: solid 1px transparent ; 
+}
+.banner{
+    width: 100%;
+}
+
+.inicio .titulo_inicio{
+    height: 100px;
+    margin: 20px;
+}
+.inicio .corpo_inicio{
+    display: flex;
+}
+.inicio .corpo_inicio .texto_inicio{
+    margin: 20px;
+    font-size: 20px;
+    
+}
+.texto_inicio p{
+    margin: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.inicio .corpo_inicio img{
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+}
+ h6{
+    font-size: 100px;
+    display: none;
+}
+.como_funciona{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding-bottom: 20px;
+    
+}
+.como_funciona .div_titulo_func{
+    background-color: #D2A274;
+    
+}
+.como_funciona .titulo_func{
+    height: 100px;    
+}
+.como_funciona img{
+    height: 200px;
+    width: auto;
+    margin: 5px;
+}
+.funcionamento{
+    display: flex;
+    gap: 60px;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.funcionamento .comeco{
+    display: block;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.funcionamento .meio{
+    display: block;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.funcionamento .fim{
+    display: block;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.funcionamento p{
+    width: 200px;
+}
+.div_titulos_planos{
+    background-color: #b61b1b;
+}
+.titulo_planos{
+    height: 120px;
+}

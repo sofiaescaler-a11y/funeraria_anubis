@@ -1,0 +1,26 @@
+# DEV CODE
+.devcode/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# JavaScript
+node_modules/
+dist/
+build/
+.expo/
+*.log
+
+# Variáveis de ambiente e segredos
+.env
+.env.*
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
