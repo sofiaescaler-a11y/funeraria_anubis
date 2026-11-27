@@ -1,10 +1,11 @@
 *{
     margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
     background-image: url(../img/parede2.jpg);
-    
+    width: 100%;
 }
 header{
     background-color: #201DB9;
@@ -27,6 +28,7 @@ header button{
     background-color: white;
     border-radius: 50px;
     border: solid 1px transparent ; 
+    padding: 10px;
 }
 .banner{
     width: 100%;
@@ -55,9 +57,10 @@ header button{
     margin: 20px;
     border-radius: 20px;
 }
- h6{
+ .tradu_inicio{
     font-size: 100px;
     display: none;
+    margin: 20px;
 }
 .como_funciona{
     background-color: rgba(255, 255, 255, 0.3);
@@ -72,7 +75,7 @@ header button{
     height: 100px;    
 }
 .como_funciona img{
-    height: 200px;
+    height: 120px;
     width: auto;
     margin: 5px;
 }
@@ -108,21 +111,177 @@ header button{
 .div_titulos_planos{
     background-color: #b61b1b;
 }
+
 .titulo_planos{
     height: 120px;
 }
 .planos{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(157, 81, 55, 0.3);
+    padding-bottom: 30px;
 }
-.planos img{
-    height: 50px;
+.corpo_planos{
+    display: flex;
+    gap: 30px;
+    margin: 20px;
 }
+
 .basico{
     background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+.corpo_planos img{
+    height: 100px;
+}
+.corpo_planos h5{
+    color: #201DB9;
+    font-size: 30px;
 }
 .medio{
     background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
 }
 .ultra{
     background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.aprovado{
+    height: 100px;
+    margin: 20px;
+}
+.div_titulo_aval{
+    background-color: white;
+}
+.tradu_aval{
+    display: none;
+    font-size: 100px;
+    color: #b61b1b;
+    
+    
+}
+.aval p{
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.aval{
+    background-color: rgba(0, 0, 0, 0.523);
+}
+.aval .estrelas{
+    gap: 30%;
+    text-align: center;
+}
+.aval .estrelas img{
+    height: 200px;
+}
+.aval .estrelas .e1{
+    height: 300px;
+}
+footer{
+    background-color: white;
+    display: flex;
+    gap: 80%;
+    padding: 10px;
+    font-size: 10px;
+}
+footer img{
+    height: 30px;
+}
+.tradu_func{
+    display: none;
+    font-size: 100px;
+    color: white;
+}
+.tradu_planos{
+    display: none;
+    font-size: 100px;
+    color: white;
+}
+
+@media(max-width: 780px){
+    .corpo_inicio{
+        flex-direction: column;
+    }
+    .funcionamento{
+        gap: 20px;
+        margin-left:28px ;
+    }
+    .como_funciona .titulo_func{
+        height: 80px;
+    }
+    .titulo_aval{
+        height: 80px;
+    }
+    
+}
+@media(max-width: 430px){
+    .funcionamento{
+        flex-direction: column;
+        text-align: center;
+    }
+    .inicio .titulo_inicio{
+        height: 50px;
+    }
+    .como_funciona .titulo_func{
+        height: 40px;
+    }
+    .titulo_planos{
+        height: 50px;
+    }
+    .corpo_planos{
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+    }
+    .titulo_aval{
+        height: 40px;
+    }
+    header{
+        display: block;
+        text-align: center;
+    }
+    header button{
+        margin: 20px;
+    }
+    .aval .estrelas img{
+        height: 80px;
+    }
+    .aval .estrelas .e1{
+        height: 105px;
+    }
+    .aval .aprovado{
+        height: 50px;
+    }
+    .basico, 
+    .medio,
+    .ultra{
+       width: 80%;
+    }
+    footer{
+        gap: 40%;
+    }
+
+}
+@media(max-width: 330px){
+    .como_funciona .titulo_func{
+        height: 35px;
+    }
+    .titulo_aval{
+        height: 35px;
+    }
+    footer {
+        gap: 40%;
+    }
+    .corpo_plano{
+        width: 80%;
+    }
 }
